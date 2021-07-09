@@ -1,0 +1,71 @@
+https://m.habr.com/ru/post/301442/
+
+https://www.npmjs.com/package/mongodb
+
+https://towardsdatascience.com/9-time-saving-tricks-for-your-command-line-c7535f1aa648?gi=bd99dcb254c7
+
+apt update
+
+apt install coreutils
+
+mkdir myproject
+
+cd myproject
+
+npm init
+
+npm install express --save
+
+npm install nedb -- save
+
+	apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+
+	echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | tee /etc/apt/sources.list.d/mongodb.list
+
+apt-get update
+
+npm install mongodb --save //driver mongodb
+
+pwd  // it show the current dir
+
+nohup   // start app background doesnt work
+
+node-file-manager -p 8000 -d /data/data/com.termux  > filemngout.log
+
+for node-file-manager start lib folder and call:
+
+$ node --harmony index.js -p 8080 -d ../../
+
+top  // list process
+
+ps -e
+
+ps -la // Для получения основных сведений о процессах, запущенных текущем пользователем
+
+ps -ela  // Для всех пользователей 
+
+ps -a  // Базовая информация для текущего пользователя
+
+ps aux | grep firefox //search process by name
+
+kill -9 PID //kill process
+
+npm install -g generator-keystone 
+
+yo keystone // install keystone
+
+node keystone //start cms
+
+Js
+
+Добавить 2 массив в 1
+
+Array.prototype.push.apply(first, second);
+
+Очистить массив
+
+arr.splice(0, arr.length);
+
+Удалить все элементы которые есть в другом
+
+myArray = myArray.filter( ( el ) => !toRemove.includes( el ) );
